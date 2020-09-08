@@ -21,18 +21,38 @@
  <h1>Ejemplo tabla</h1>
 
 <div style="text-align: center;">
-<TABLE border="1">
+<TABLE cellspacing="4" cellspadding="3" border="1">
 	<TR>
 		<TD> Nombre </TD> <TD>Apellido</TD> <TD>Calificacion</TD></TR>
 	<TR>
-		<TD>Hilary</TD> <TD>Martinez</TD> <TD>18</TD></TR>
+		<TD> Nombre 1</TD> <TD>Apellido 1</TD> <TD>Calificacion 1</TD></TR>
 	<TR>
-		<TD>Carlos</TD> <TD>Olivares</TD> <TD>15</TD></TR>
+		<TD> Nombre 2</TD> <TD>Apellido 2</TD> <TD>Calificacion 2</TD></TR>
 	<TR>
-		<TD>Manuel</TD> <TD>Zambrano</TD> <TD>16</TD></TR>
+		<TD> Nombre 3</TD> <TD>Apellido 3</TD> <TD>Calificacion 3</TD></TR>
 </TABLE>
 </div>
 
+<br>
+<h1>Imagenes en una pagina</h1>
+<img src="imagenes/pinguinos.jpg" width="200" heigth="200" align="left" alt="No se puede mostrar la pantalla">
+<img src="imagenes/pinguinos.jpg" width="200" heigth="300" align="rigth" alt="No se puede mostrar la pantalla">
+
+<br>
+
+<div style="text-align: center;">
+<TABLE BORDER="2">
+	<TR>
+		<TD> Pinguinos </TD> <TD>Tulipanes></TD> <TD>Desierto</TD> 
+	<TR>
+		<TD><IMG SRC="imagenes/pinguinos.jpg" width="200" heigth="200" align="left" ></TD> 
+		<TD><IMG SRC="imagenes/tulipanes.jpg" width="200" heigth="200" align="left" ></TD> 
+		<TD><IMG SRC="imagenes/desierto.jpg" width="200" heigth="200" align="left" ></TD> 
+	
+	</TR>
+</TABLE>
+
+</div>
 
 </body>
 </html>
